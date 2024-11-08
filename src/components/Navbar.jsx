@@ -10,7 +10,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 const Navbar = () => {
-  const navLinks = ["/home", "/calender", "/explore", "/quests", "/profile"];
+  const navLinks = ["/", "/calender", "/explore", "/quests", "/profile"];
   let curPath = usePathname();
   const [path, setPath] = useState(curPath);
 

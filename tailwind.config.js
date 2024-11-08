@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        campfire: "url(/assets/Campfire.svg)",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
